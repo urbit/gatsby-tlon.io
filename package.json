@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "gatsby-tlon-io",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "",
   "version": "0.1.0",
-  "license": "0BSD",
+  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -14,9 +14,22 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@reach/disclosure": "^0.10.5",
+    "@reach/menu-button": "^0.10.5",
+    "@reach/tabs": "^0.10.5",
+    "@tlon/indigo-light": "^1.0.3",
+    "@tlon/indigo-react": "^1.1.15",
+    "codemirror": "^5.56.0",
+    "formik": "^2.1.5",
     "gatsby": "^2.23.12",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "gatsby-source-filesystem": "^2.3.23",
+    "gatsby-transformer-remark": "^2.8.27",
+    "markdown-to-jsx": "^6.11.4",
+    "react": "^16.13.1",
+    "react-codemirror2": "^7.2.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.1",
+    "styled-system": "^5.1.5"
   },
   "devDependencies": {
     "prettier": "2.0.5"
